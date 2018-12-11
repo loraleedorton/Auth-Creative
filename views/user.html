@@ -1,0 +1,55 @@
+<!doctype html>
+<html ng-app="myApp">
+
+<head>
+    <title>Registration</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="/stylesheets/style.css" />
+</head>
+
+<body>
+    <nav class="navbar navbar-light bg-light" style="background-color: white;">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <a class="navbar-brand" href="/" style="font-size:30px">Company Contact Registration</a>
+            </div>
+        </div>
+    </nav>
+    <div id="main">
+        <div class="form-container" ng-controller="myController">
+            <h2 id="sectionTitle" class="form-header">User Profile</h2>
+            <form method="POST" action="/user/update">
+                <label>Username:</label>
+                <input type="text" id="username" name="username" ng-model="user.username" disabled><br>
+                <label>Phone Number:</label>
+                <input type="text" id="phone" name="phone" ng-model="user.phone"><br>
+                <label>Email:</label>
+                <input type="text" id="email" name="email" ng-model="user.email"><br>
+                <label>Social Security Number:</label>
+                <input type="text" id="ssn" name="ssn" ng-model="user.ssn"><br>
+                <label>Weeky Hours:</label>
+                <input type="text" id="hours" name="hours" ng-model="user.hours"><br>
+                <input type="submit" id="save" value="Save">
+            </form>
+        </div>
+        <form method="POST" action="/user/delete">
+            <input type="submit" id="delete" value="Delete User">
+        </form>
+        <hr>
+        <span id="userMsg">
+    <%= msg %><br><br>
+    </span>
+        <script src="http://code.angularjs.org/1.2.9/angular.min.js"></script>
+        <script src="/javascripts/my_app.js"></script>
+        <div id="links">
+        <a id="homeLink" href="/">Home</a>
+        </div>
+    </div>
+        <div id="copyright">Copyright &copy Loralee Dorton 2018</div>
+</body>
+
+</html>

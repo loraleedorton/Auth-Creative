@@ -1,0 +1,42 @@
+body {
+  background-color:#091d3d;
+  height:100%;
+}
+
+#main {
+  background-color:#f2f2f2;
+  width:60%;
+  height:400px;
+  margin: 0px auto auto auto;
+  padding: 20px 50px 300px 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+nav {
+  text-shadow:
+		1px 1px 0 #4f4f4f;
+		border-top: 6px grey solid;
+}
+
+a {
+  color: #00B7FF;
+}
+
+#links {
+  clear:all;
+  width:85%;
+  background-color: #0f1723;
+  border-radius: 6px;
+  text-align:center;
+  margin: auto;
+  bottom:250px;
+  padding:10px;
+}
+
+#copyright {
+  clear:all;
+  color:white;
+  margin:auto;
+  width:100%;
+  text-align: center;
+}

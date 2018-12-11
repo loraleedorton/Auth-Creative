@@ -1,0 +1,59 @@
+<!doctype html>
+<html ng-app="myApp">
+
+<head>
+    <title>Registration</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="/stylesheets/style.css" />
+</head>
+
+<body>
+    <nav class="navbar navbar-dark" style="background-color:white">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <a class="navbar-brand" href="/" style="font-size:30px">Company Contact Registration</a>
+            </div>
+        </div>
+    </nav>
+
+    <div id="main">
+        <div ng-controller="myController">
+            <h1 id="welcomeText"><b>Welcome,
+                <%= username %>!</b>
+            </h1>
+        </div>
+        <span id="indexMsg">
+        <%= msg %>
+    </span><br><br><br>
+    <i>Here is what you have registered with our company so far:</i><br><br>
+    <span id="phoneText">
+    <b>Phone Number</b>
+        <%= phone %>
+      </span><br><br>
+        <span id="emailText">
+          <b>Email Address</b>
+          <%= email %>
+      </span><br><br>
+        <span id="ssnText">
+          <b>Social Security Number</b>
+          <%= ssn %>
+      </span><br><br>
+        <span id="hoursText">
+          <b>Weekly Hours</b>
+          <%= hours %>
+      </span><br><br><br><br>
+        <div id="links">
+            <a id="logoutLink" href="/logout">Logout</a> |
+            <a id="editLink" href="/user">Edit Contact</a>
+        </div>
+        <script src="http://code.angularjs.org/1.2.9/angular.min.js"></script>
+        <script src="/javascripts/my_app.js"></script>
+    </div>
+    <div id="copyright">Copyright &copy Loralee Dorton 2018</div>
+</body>
+
+</html>

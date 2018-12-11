@@ -1,0 +1,42 @@
+<!doctype html>
+<html>
+
+<head>
+    <title>Registration</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="/stylesheets/style.css" />
+</head>
+
+<body>
+    <nav class="navbar navbar-dark" style="background-color: white">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <a class="navbar-brand" href="/" style="font-size:30px">Company Contact Registration</a>
+            </div>
+        </div>
+    </nav>
+    <div id="main">
+        <div class="form-container">
+            <h2 class="form-header">Login</h2><br>
+            <form method="POST" action="/login">
+                <label>Username:</label>
+                <input type="text" id="username" name="username"><br>
+                <label>Password:</label>
+                <input type="password" id="password" name="password"><br><br>
+                <input type="submit" id="login" value="Login">
+            </form>
+        </div><span id="loginMsg">
+    <%= msg %>
+    </span><br><br><br><br><br><br><br><br>
+        <div id="links">
+        <a id="Slinks" href="/signup">Sign Up</a>
+        </div><br>
+    </div>
+        <div id="copyright">Copyright &copy Loralee Dorton 2018</div>
+</body>
+
+</html>

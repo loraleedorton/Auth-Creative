@@ -1,0 +1,1666 @@
+nohup: ignoring input
+before / Route
+Connected
+(node:22930) DeprecationWarning: collection.ensureIndex is deprecated. Use createIndexes instead.
+/ Route
+Session {
+  cookie: 
+   { path: '/',
+     _expires: 2019-01-06T12:09:15.666Z,
+     originalMaxAge: 2628000000,
+     httpOnly: true },
+  user: '5c05d0663c27a95d9f18fede',
+  username: 'benten',
+  msg: 'Authenticated as benten',
+  color: 'Red' }
+/ Route if user
+[0mGET / [32m200 [0m15.218 ms - 1498[0m
+[0mGET /stylesheets/style.css [36m304 [0m3.538 ms - -[0m
+[0mGET /javascripts/my_app.js [36m304 [0m1.948 ms - -[0m
+[0mGET /favicon.ico [33m404 [0m2.957 ms - 926[0m
+[0mGET /user/profile [36m304 [0m20.775 ms - -[0m
+/user Route
+[0mGET /user [36m304 [0m2.548 ms - -[0m
+[0mGET /javascripts/my_app.js [36m304 [0m2.681 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m5.033 ms - -[0m
+[0mGET /user/profile [36m304 [0m15.158 ms - -[0m
+[0mPOST /user/update [36m302 [0m31.690 ms - 54[0m
+/user Route
+[0mGET /user [32m200 [0m3.944 ms - 1999[0m
+[0mGET /stylesheets/style.css [36m304 [0m1.716 ms - -[0m
+[0mGET /javascripts/my_app.js [36m304 [0m1.893 ms - -[0m
+[0mGET /user/profile [36m304 [0m3.071 ms - -[0m
+/ Route
+Session {
+  cookie: 
+   { path: '/',
+     _expires: 2019-01-06T12:12:57.376Z,
+     originalMaxAge: 2628000000,
+     httpOnly: true },
+  user: '5c05d0663c27a95d9f18fede',
+  username: 'benten',
+  msg: 'User Updated.',
+  color: 'Red' }
+/ Route if user
+[0mGET / [32m200 [0m9.076 ms - 1488[0m
+[0mGET /stylesheets/style.css [36m304 [0m1.565 ms - -[0m
+[0mGET /javascripts/my_app.js [36m304 [0m1.910 ms - -[0m
+[0mGET /user/profile [36m304 [0m2.403 ms - -[0m
+/logout Route
+[0mGET /logout [36m302 [0m2.998 ms - 56[0m
+/login Route
+[0mGET /login [32m200 [0m1.371 ms - 1469[0m
+[0mGET /stylesheets/style.css [36m304 [0m1.599 ms - -[0m
+/ Route
+Session {
+  cookie: 
+   { path: '/',
+     _expires: 2019-01-06T12:13:02.971Z,
+     originalMaxAge: 2628000000,
+     httpOnly: true } }
+/ Route else user
+[0mGET / [36m302 [0m1.054 ms - 56[0m
+/login Route
+[0mGET /login [32m200 [0m1.309 ms - 1483[0m
+[0mGET /stylesheets/style.css [36m304 [0m1.102 ms - -[0m
+login
+{ _id: 5c05d0663c27a95d9f18fede,
+  username: 'benten',
+  hashed_password: 'aB4kmIOKWDXyt2fv8Ih40O+peCi9l0vBz9Sl1hzAu0I=',
+  email: 'lovelyloralee@gmail.com',
+  __v: 0,
+  color: 'Red' }
+[0mPOST /login [36m302 [0m9.515 ms - 46[0m
+/ Route
+Session {
+  cookie: 
+   { path: '/',
+     _expires: 2019-01-06T12:13:10.050Z,
+     originalMaxAge: 2628000000,
+     httpOnly: true },
+  user: '5c05d0663c27a95d9f18fede',
+  username: 'benten',
+  msg: 'Authenticated as benten',
+  color: 'Red' }
+/ Route if user
+[0mGET / [32m200 [0m1.330 ms - 1498[0m
+[0mGET /stylesheets/style.css [36m304 [0m4.924 ms - -[0m
+[0mGET /javascripts/my_app.js [36m304 [0m1.203 ms - -[0m
+[0mGET /user/profile [36m304 [0m2.254 ms - -[0m
+/ Route
+Session {
+  cookie: 
+   { path: '/',
+     _expires: 2019-01-06T12:13:10.606Z,
+     originalMaxAge: 2628000000,
+     httpOnly: true },
+  user: '5c05d0663c27a95d9f18fede',
+  username: 'benten',
+  msg: 'Authenticated as benten',
+  color: 'Red' }
+/ Route if user
+[0mGET / [36m304 [0m2.478 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.986 ms - -[0m
+[0mGET /javascripts/my_app.js [36m304 [0m0.798 ms - -[0m
+[0mGET /user/profile [36m304 [0m5.696 ms - -[0m
+[0mGET /index.html [33m404 [0m1.157 ms - 926[0m
+/ Route
+Session {
+  cookie: 
+   { path: '/',
+     _expires: 2019-01-06T12:37:11.975Z,
+     originalMaxAge: 2628000000,
+     httpOnly: true } }
+/ Route else user
+[0mGET / [36m302 [0m1.648 ms - 28[0m
+/ Route
+Session {
+  cookie: 
+   { path: '/',
+     _expires: 2019-01-06T12:52:19.268Z,
+     originalMaxAge: 2628000000,
+     httpOnly: true } }
+/ Route else user
+[0mGET / [36m302 [0m0.832 ms - 28[0m
+/ Route
+Session {
+  cookie: 
+   { path: '/',
+     _expires: 2019-01-06T13:49:00.574Z,
+     originalMaxAge: 2628000000,
+     httpOnly: true } }
+/ Route else user
+[0mGET / [36m302 [0m0.677 ms - 28[0m
+/ Route
+Session {
+  cookie: 
+   { path: '/',
+     _expires: 2019-01-06T14:57:40.833Z,
+     originalMaxAge: 2628000000,
+     httpOnly: true } }
+/ Route else user
+[0mGET / [36m302 [0m1.257 ms - 28[0m
+/ Route
+Session {
+  cookie: 
+   { path: '/',
+     _expires: 2019-01-06T15:33:17.504Z,
+     originalMaxAge: 2628000000,
+     httpOnly: true } }
+/ Route else user
+[0mGET / [36m302 [0m0.715 ms - 28[0m
+/ Route
+Session {
+  cookie: 
+   { path: '/',
+     _expires: 2019-01-06T16:15:26.758Z,
+     originalMaxAge: 2628000000,
+     httpOnly: true } }
+/ Route else user
+[0mGET / [36m302 [0m0.700 ms - 28[0m
+/ Route
+Session {
+  cookie: 
+   { path: '/',
+     _expires: 2019-01-06T17:18:58.016Z,
+     originalMaxAge: 2628000000,
+     httpOnly: true } }
+/ Route else user
+[0mGET / [36m302 [0m1.557 ms - 28[0m
+/ Route
+Session {
+  cookie: 
+   { path: '/',
+     _expires: 2019-01-06T18:12:14.355Z,
+     originalMaxAge: 2628000000,
+     httpOnly: true } }
+/ Route else user
+[0mGET / [36m302 [0m2.941 ms - 28[0m
+/ Route
+Session {
+  cookie: 
+   { path: '/',
+     _expires: 2019-01-06T19:27:32.412Z,
+     originalMaxAge: 2628000000,
+     httpOnly: true } }
+/ Route else user
+[0mGET / [36m302 [0m1.103 ms - 28[0m
+/ Route
+Session {
+  cookie: 
+   { path: '/',
+     _expires: 2019-01-06T19:58:48.549Z,
+     originalMaxAge: 2628000000,
+     httpOnly: true } }
+/ Route else user
+[0mGET / [36m302 [0m2.142 ms - 28[0m
+/ Route
+Session {
+  cookie: 
+   { path: '/',
+     _expires: 2019-01-06T20:15:31.276Z,
+     originalMaxAge: 2628000000,
+     httpOnly: true } }
+/ Route else user
+[0mGET / [36m302 [0m0.722 ms - 28[0m
+/ Route
+Session {
+  cookie: 
+   { path: '/',
+     _expires: 2019-01-06T21:01:19.549Z,
+     originalMaxAge: 2628000000,
+     httpOnly: true } }
+/ Route else user
+[0mGET / [36m302 [0m0.692 ms - 28[0m
+/login Route
+[0mGET /login [32m200 [0m1.952 ms - 1469[0m
+/ Route
+Session {
+  cookie: 
+   { path: '/',
+     _expires: 2019-01-06T21:04:12.702Z,
+     originalMaxAge: 2628000000,
+     httpOnly: true } }
+/ Route else user
+[0mGET / [36m302 [0m0.702 ms - 28[0m
+/ Route
+Session {
+  cookie: 
+   { path: '/',
+     _expires: 2019-01-06T22:07:48.359Z,
+     originalMaxAge: 2628000000,
+     httpOnly: true } }
+/ Route else user
+[0mGET / [36m302 [0m0.749 ms - 28[0m
+/ Route
+Session {
+  cookie: 
+   { path: '/',
+     _expires: 2019-01-06T22:13:03.084Z,
+     originalMaxAge: 2628000000,
+     httpOnly: true } }
+/ Route else user
+[0mGET / [36m302 [0m1.528 ms - 28[0m
+/login Route
+[0mGET /login [32m200 [0m1.069 ms - 1469[0m
+/ Route
+Session {
+  cookie: 
+   { path: '/',
+     _expires: 2019-01-07T00:08:30.195Z,
+     originalMaxAge: 2628000000,
+     httpOnly: true } }
+/ Route else user
+[0mGET / [36m302 [0m0.675 ms - 28[0m
+/ Route
+Session {
+  cookie: 
+   { path: '/',
+     _expires: 2019-01-07T00:10:37.042Z,
+     originalMaxAge: 2628000000,
+     httpOnly: true } }
+/ Route else user
+[0mGET / [36m302 [0m1.163 ms - 28[0m
+/ Route
+Session {
+  cookie: 
+   { path: '/',
+     _expires: 2019-01-07T00:40:30.206Z,
+     originalMaxAge: 2628000000,
+     httpOnly: true } }
+/ Route else user
+[0mGET / [36m302 [0m0.998 ms - 28[0m
+/ Route
+Session {
+  cookie: 
+   { path: '/',
+     _expires: 2019-01-07T01:55:47.011Z,
+     originalMaxAge: 2628000000,
+     httpOnly: true } }
+/ Route else user
+[0mGET / [36m302 [0m1.758 ms - 28[0m
+/ Route
+Session {
+  cookie: 
+   { path: '/',
+     _expires: 2019-01-07T02:19:20.422Z,
+     originalMaxAge: 2628000000,
+     httpOnly: true } }
+/ Route else user
+[0mGET / [36m302 [0m0.794 ms - 28[0m
+/ Route
+Session {
+  cookie: 
+   { path: '/',
+     _expires: 2019-01-07T02:45:16.173Z,
+     originalMaxAge: 2628000000,
+     httpOnly: true } }
+/ Route else user
+[0mGET / [36m302 [0m0.804 ms - 28[0m
+/ Route
+Session {
+  cookie: 
+   { path: '/',
+     _expires: 2019-01-07T03:21:20.756Z,
+     originalMaxAge: 2628000000,
+     httpOnly: true } }
+/ Route else user
+[0mGET / [36m302 [0m0.644 ms - 28[0m
+/ Route
+Session {
+  cookie: 
+   { path: '/',
+     _expires: 2019-01-07T04:29:36.392Z,
+     originalMaxAge: 2628000000,
+     httpOnly: true } }
+/ Route else user
+[0mGET / [36m302 [0m0.718 ms - 28[0m
+/ Route
+Session {
+  cookie: 
+   { path: '/',
+     _expires: 2019-01-07T04:52:04.832Z,
+     originalMaxAge: 2628000000,
+     httpOnly: true } }
+/ Route else user
+[0mGET / [36m302 [0m0.628 ms - 28[0m
+/ Route
+Session {
+  cookie: 
+   { path: '/',
+     _expires: 2019-01-07T05:28:31.441Z,
+     originalMaxAge: 2628000000,
+     httpOnly: true } }
+/ Route else user
+[0mGET / [36m302 [0m1.025 ms - 28[0m
+/ Route
+Session {
+  cookie: 
+   { path: '/',
+     _expires: 2019-01-07T05:28:31.449Z,
+     originalMaxAge: 2628000000,
+     httpOnly: true } }
+/ Route else user
+[0mGET / [36m302 [0m0.488 ms - 28[0m
+/ Route
+Session {
+  cookie: 
+   { path: '/',
+     _expires: 2019-01-07T05:28:31.454Z,
+     originalMaxAge: 2628000000,
+     httpOnly: true } }
+/ Route else user
+[0mGET / [36m302 [0m0.533 ms - 28[0m
+/ Route
+Session {
+  cookie: 
+   { path: '/',
+     _expires: 2019-01-04T06:22:54.297Z,
+     originalMaxAge: 2628000000,
+     httpOnly: true },
+  msg: 'User Not Found.' }
+/ Route else user
+[0mGET / [36m302 [0m0.943 ms - 56[0m
+/login Route
+[0mGET /login [32m200 [0m0.884 ms - 1483[0m
+[0mGET /stylesheets/style.css [32m200 [0m3.260 ms - 267[0m
+[0mGET /favicon.ico [33m404 [0m0.727 ms - 926[0m
+/ Route
+Session {
+  cookie: 
+   { path: '/',
+     _expires: 2019-01-07T05:37:15.348Z,
+     originalMaxAge: 2628000000,
+     httpOnly: true },
+  msg: 'Access denied!' }
+/ Route else user
+[0mGET / [36m302 [0m0.745 ms - 56[0m
+/login Route
+[0mGET /login [36m304 [0m4.140 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.959 ms - -[0m
+[0mPOST /login [36m302 [0m7.057 ms - 56[0m
+/login Route
+[0mGET /login [32m200 [0m0.724 ms - 1484[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.946 ms - -[0m
+[0mPOST /login [36m302 [0m3.041 ms - 56[0m
+/login Route
+[0mGET /login [32m200 [0m2.004 ms - 1484[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.889 ms - -[0m
+/signup Route
+[0mGET /signup [32m200 [0m1.469 ms - 1544[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.956 ms - -[0m
+Begin exports.signup
+after new user exports.signup
+after hashing user exports.signup
+after email user exports.signup
+In exports.signup
+null
+[0mPOST /signup [36m302 [0m6.447 ms - 46[0m
+/ Route
+Session {
+  cookie: 
+   { path: '/',
+     _expires: 2019-01-07T05:37:38.281Z,
+     originalMaxAge: 2627999999,
+     httpOnly: true },
+  msg: 'Authenticated as lorprice',
+  user: '5c0acc027de0c65992dc6743',
+  username: 'lorprice' }
+/ Route if user
+[0mGET / [32m200 [0m1.045 ms - 1499[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.942 ms - -[0m
+[0mGET /javascripts/my_app.js [32m200 [0m0.996 ms - 400[0m
+[0mGET /user/profile [32m200 [0m9.702 ms - 148[0m
+/user Route
+[0mGET /user [32m200 [0m1.548 ms - 2011[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.953 ms - -[0m
+[0mGET /javascripts/my_app.js [36m304 [0m0.910 ms - -[0m
+[0mGET /user/profile [36m304 [0m1.476 ms - -[0m
+[0mPOST /user/update [36m302 [0m3.658 ms - 54[0m
+/user Route
+[0mGET /user [32m200 [0m0.817 ms - 1999[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.949 ms - -[0m
+[0mGET /javascripts/my_app.js [36m304 [0m0.909 ms - -[0m
+[0mGET /user/profile [32m200 [0m1.475 ms - 164[0m
+/ Route
+Session {
+  cookie: 
+   { path: '/',
+     _expires: 2019-01-07T05:37:54.694Z,
+     originalMaxAge: 2627999999,
+     httpOnly: true },
+  msg: 'User Updated.',
+  user: '5c0acc027de0c65992dc6743',
+  username: 'lorprice',
+  color: 'Green' }
+/ Route if user
+[0mGET / [32m200 [0m2.715 ms - 1492[0m
+[0mGET /stylesheets/style.css [36m304 [0m1.017 ms - -[0m
+[0mGET /javascripts/my_app.js [36m304 [0m0.875 ms - -[0m
+[0mGET /user/profile [36m304 [0m1.753 ms - -[0m
+/ Route
+Session {
+  cookie: 
+   { path: '/',
+     _expires: 2019-01-07T06:17:04.512Z,
+     originalMaxAge: 2628000000,
+     httpOnly: true } }
+/ Route else user
+[0mGET / [36m302 [0m0.751 ms - 28[0m
+[0mGET /stylesheets/style.css [36m304 [0m1.010 ms - -[0m
+[0mGET /javascripts/my_app.js [36m304 [0m0.801 ms - -[0m
+[0mGET /favicon.ico [33m404 [0m0.734 ms - 926[0m
+[0mGET /user/profile [36m304 [0m1.500 ms - -[0m
+/ Route
+Session {
+  cookie: 
+   { path: '/',
+     _expires: 2019-01-07T07:25:29.243Z,
+     originalMaxAge: 2628000000,
+     httpOnly: true } }
+/ Route else user
+[0mGET / [36m302 [0m0.727 ms - 28[0m
+/ Route
+Session {
+  cookie: 
+   { path: '/',
+     _expires: 2019-01-07T07:29:11.794Z,
+     originalMaxAge: 2628000000,
+     httpOnly: true } }
+/ Route else user
+[0mGET / [36m302 [0m0.661 ms - 28[0m
+/ Route
+Session {
+  cookie: 
+   { path: '/',
+     _expires: 2019-01-07T07:31:54.191Z,
+     originalMaxAge: 2628000000,
+     httpOnly: true } }
+/ Route else user
+[0mGET / [36m302 [0m1.017 ms - 28[0m
+/login Route
+[0mGET /login [32m200 [0m0.785 ms - 1469[0m
+/ Route
+Session {
+  cookie: 
+   { path: '/',
+     _expires: 2019-01-07T07:57:04.745Z,
+     originalMaxAge: 2628000000,
+     httpOnly: true } }
+/ Route else user
+[0mGET / [36m302 [0m1.643 ms - 28[0m
+/ Route
+Session {
+  cookie: 
+   { path: '/',
+     _expires: 2019-01-07T08:01:15.042Z,
+     originalMaxAge: 2628000000,
+     httpOnly: true } }
+/ Route else user
+[0mGET / [36m302 [0m0.671 ms - 28[0m
+/ Route
+Session {
+  cookie: 
+   { path: '/',
+     _expires: 2019-01-07T08:47:54.758Z,
+     originalMaxAge: 2628000000,
+     httpOnly: true } }
+/ Route else user
+[0mGET / [36m302 [0m0.656 ms - 28[0m
+/ Route
+Session {
+  cookie: 
+   { path: '/',
+     _expires: 2019-01-07T09:00:44.252Z,
+     originalMaxAge: 2628000000,
+     httpOnly: true } }
+/ Route else user
+[0mGET / [36m302 [0m1.025 ms - 28[0m
+/ Route
+Session {
+  cookie: 
+   { path: '/',
+     _expires: 2019-01-07T09:09:10.459Z,
+     originalMaxAge: 2628000000,
+     httpOnly: true } }
+/ Route else user
+[0mGET / [36m302 [0m0.695 ms - 28[0m
+/ Route
+Session {
+  cookie: 
+   { path: '/',
+     _expires: 2019-01-07T10:05:40.400Z,
+     originalMaxAge: 2628000000,
+     httpOnly: true } }
+/ Route else user
+[0mGET / [36m302 [0m0.664 ms - 28[0m
+/ Route
+Session {
+  cookie: 
+   { path: '/',
+     _expires: 2019-01-07T10:13:13.139Z,
+     originalMaxAge: 2628000000,
+     httpOnly: true } }
+/ Route else user
+[0mGET / [36m302 [0m1.204 ms - 28[0m
+/ Route
+Session {
+  cookie: 
+   { path: '/',
+     _expires: 2019-01-07T11:52:05.557Z,
+     originalMaxAge: 2628000000,
+     httpOnly: true } }
+/ Route else user
+[0mGET / [36m302 [0m1.565 ms - 28[0m
+/login Route
+[0mGET /login [32m200 [0m0.740 ms - 1483[0m
+/ Route
+Session {
+  cookie: 
+   { path: '/',
+     _expires: 2019-01-07T11:56:22.510Z,
+     originalMaxAge: 2628000000,
+     httpOnly: true } }
+/ Route else user
+[0mGET / [36m302 [0m0.678 ms - 28[0m
+/ Route
+Session {
+  cookie: 
+   { path: '/',
+     _expires: 2019-01-07T15:50:44.369Z,
+     originalMaxAge: 2628000000,
+     httpOnly: true } }
+/ Route else user
+[0mGET / [36m302 [0m1.234 ms - 28[0m
+/ Route
+Session {
+  cookie: 
+   { path: '/',
+     _expires: 2019-01-07T16:35:14.660Z,
+     originalMaxAge: 2628000000,
+     httpOnly: true } }
+/ Route else user
+[0mGET / [36m302 [0m0.683 ms - 28[0m
+/ Route
+Session {
+  cookie: 
+   { path: '/',
+     _expires: 2019-01-07T16:38:45.692Z,
+     originalMaxAge: 2628000000,
+     httpOnly: true } }
+/ Route else user
+[0mGET / [36m302 [0m0.668 ms - 28[0m
+/ Route
+Session {
+  cookie: 
+   { path: '/',
+     _expires: 2019-01-07T16:58:07.611Z,
+     originalMaxAge: 2628000000,
+     httpOnly: true } }
+/ Route else user
+[0mGET / [36m302 [0m0.701 ms - 28[0m
+/ Route
+Session {
+  cookie: 
+   { path: '/',
+     _expires: 2019-01-07T18:33:05.250Z,
+     originalMaxAge: 2628000000,
+     httpOnly: true } }
+/ Route else user
+[0mGET / [36m302 [0m1.441 ms - 28[0m
+/ Route
+Session {
+  cookie: 
+   { path: '/',
+     _expires: 2019-01-07T19:05:23.686Z,
+     originalMaxAge: 2628000000,
+     httpOnly: true } }
+/ Route else user
+[0mGET / [36m302 [0m0.972 ms - 28[0m
+/ Route
+Session {
+  cookie: 
+   { path: '/',
+     _expires: 2019-01-07T19:53:56.457Z,
+     originalMaxAge: 2628000000,
+     httpOnly: true } }
+/ Route else user
+[0mGET / [36m302 [0m0.689 ms - 28[0m
+/ Route
+Session {
+  cookie: 
+   { path: '/',
+     _expires: 2019-01-07T20:27:47.392Z,
+     originalMaxAge: 2628000000,
+     httpOnly: true } }
+/ Route else user
+[0mGET / [36m302 [0m0.651 ms - 28[0m
+/ Route
+Session {
+  cookie: 
+   { path: '/',
+     _expires: 2019-01-07T21:31:23.509Z,
+     originalMaxAge: 2628000000,
+     httpOnly: true } }
+/ Route else user
+[0mGET / [36m302 [0m0.681 ms - 28[0m
+/ Route
+Session {
+  cookie: 
+   { path: '/',
+     _expires: 2019-01-07T21:36:19.543Z,
+     originalMaxAge: 2628000000,
+     httpOnly: true } }
+/ Route else user
+[0mGET / [36m302 [0m0.699 ms - 28[0m
+/ Route
+Session {
+  cookie: 
+   { path: '/',
+     _expires: 2019-01-07T21:47:29.195Z,
+     originalMaxAge: 2628000000,
+     httpOnly: true } }
+/ Route else user
+[0mGET / [36m302 [0m0.720 ms - 28[0m
+/ Route
+Session {
+  cookie: 
+   { path: '/',
+     _expires: 2019-01-07T22:01:40.261Z,
+     originalMaxAge: 2628000000,
+     httpOnly: true } }
+/ Route else user
+[0mGET / [36m302 [0m1.147 ms - 28[0m
+/ Route
+Session {
+  cookie: 
+   { path: '/',
+     _expires: 2019-01-07T22:11:44.940Z,
+     originalMaxAge: 2628000000,
+     httpOnly: true } }
+/ Route else user
+[0mGET / [36m302 [0m0.618 ms - 28[0m
+/ Route
+Session {
+  cookie: 
+   { path: '/',
+     _expires: 2019-01-07T22:34:50.666Z,
+     originalMaxAge: 2628000000,
+     httpOnly: true } }
+/ Route else user
+[0mGET / [36m302 [0m1.106 ms - 28[0m
+/ Route
+Session {
+  cookie: 
+   { path: '/',
+     _expires: 2019-01-07T22:41:03.064Z,
+     originalMaxAge: 2628000000,
+     httpOnly: true } }
+/ Route else user
+[0mGET / [36m302 [0m1.773 ms - 28[0m
+/ Route
+Session {
+  cookie: 
+   { path: '/',
+     _expires: 2019-01-08T00:11:10.922Z,
+     originalMaxAge: 2628000000,
+     httpOnly: true } }
+/ Route else user
+[0mGET / [36m302 [0m0.715 ms - 28[0m
+/ Route
+Session {
+  cookie: 
+   { path: '/',
+     _expires: 2019-01-08T00:26:12.759Z,
+     originalMaxAge: 2628000000,
+     httpOnly: true } }
+/ Route else user
+[0mGET / [36m302 [0m3.596 ms - 28[0m
+/ Route
+Session {
+  cookie: 
+   { path: '/',
+     _expires: 2019-01-08T00:42:52.684Z,
+     originalMaxAge: 2628000000,
+     httpOnly: true } }
+/ Route else user
+[0mGET / [36m302 [0m1.180 ms - 28[0m
+/ Route
+Session {
+  cookie: 
+   { path: '/',
+     _expires: 2019-01-08T01:20:32.665Z,
+     originalMaxAge: 2628000000,
+     httpOnly: true } }
+/ Route else user
+[0mGET / [36m302 [0m0.663 ms - 28[0m
+/login Route
+[0mGET /login [32m200 [0m0.808 ms - 1469[0m
+/ Route
+Session {
+  cookie: 
+   { path: '/',
+     _expires: 2019-01-08T02:12:49.326Z,
+     originalMaxAge: 2628000000,
+     httpOnly: true } }
+/ Route else user
+[0mGET / [36m302 [0m0.646 ms - 28[0m
+/ Route
+Session {
+  cookie: 
+   { path: '/',
+     _expires: 2019-01-08T02:22:48.814Z,
+     originalMaxAge: 2628000000,
+     httpOnly: true } }
+/ Route else user
+[0mGET / [36m302 [0m0.645 ms - 28[0m
+/ Route
+Session {
+  cookie: 
+   { path: '/',
+     _expires: 2019-01-08T02:41:40.499Z,
+     originalMaxAge: 2628000000,
+     httpOnly: true } }
+/ Route else user
+[0mGET / [36m302 [0m2.226 ms - 28[0m
+/ Route
+Session {
+  cookie: 
+   { path: '/',
+     _expires: 2019-01-08T03:04:27.153Z,
+     originalMaxAge: 2628000000,
+     httpOnly: true } }
+/ Route else user
+[0mGET / [36m302 [0m1.091 ms - 28[0m
+/ Route
+Session {
+  cookie: 
+   { path: '/',
+     _expires: 2019-01-08T04:26:18.541Z,
+     originalMaxAge: 2628000000,
+     httpOnly: true } }
+/ Route else user
+[0mGET / [36m302 [0m2.738 ms - 28[0m
+/ Route
+Session {
+  cookie: 
+   { path: '/',
+     _expires: 2019-01-08T04:44:39.178Z,
+     originalMaxAge: 2628000000,
+     httpOnly: true } }
+/ Route else user
+[0mGET / [36m302 [0m1.115 ms - 28[0m
+[0mGET /index.html [33m404 [0m1.666 ms - 926[0m
+/ Route
+Session {
+  cookie: 
+   { path: '/',
+     _expires: 2019-01-08T05:29:38.469Z,
+     originalMaxAge: 2628000000,
+     httpOnly: true } }
+/ Route else user
+[0mGET / [36m302 [0m1.440 ms - 28[0m
+/ Route
+Session {
+  cookie: 
+   { path: '/',
+     _expires: 2019-01-08T05:31:19.558Z,
+     originalMaxAge: 2628000000,
+     httpOnly: true } }
+/ Route else user
+[0mGET / [36m302 [0m1.019 ms - 28[0m
+/ Route
+Session {
+  cookie: 
+   { path: '/',
+     _expires: 2019-01-08T07:40:30.711Z,
+     originalMaxAge: 2628000000,
+     httpOnly: true } }
+/ Route else user
+[0mGET / [36m302 [0m0.712 ms - 28[0m
+/ Route
+Session {
+  cookie: 
+   { path: '/',
+     _expires: 2019-01-08T08:09:14.771Z,
+     originalMaxAge: 2628000000,
+     httpOnly: true } }
+/ Route else user
+[0mGET / [36m302 [0m0.697 ms - 28[0m
+/ Route
+Session {
+  cookie: 
+   { path: '/',
+     _expires: 2019-01-08T08:28:04.936Z,
+     originalMaxAge: 2628000000,
+     httpOnly: true } }
+/ Route else user
+[0mGET / [36m302 [0m0.631 ms - 28[0m
+/ Route
+Session {
+  cookie: 
+   { path: '/',
+     _expires: 2019-01-08T09:02:07.848Z,
+     originalMaxAge: 2628000000,
+     httpOnly: true } }
+/ Route else user
+[0mGET / [36m302 [0m0.673 ms - 28[0m
+/ Route
+Session {
+  cookie: 
+   { path: '/',
+     _expires: 2019-01-08T09:06:35.349Z,
+     originalMaxAge: 2628000000,
+     httpOnly: true } }
+/ Route else user
+[0mGET / [36m302 [0m0.601 ms - 28[0m
+/ Route
+Session {
+  cookie: 
+   { path: '/',
+     _expires: 2019-01-08T10:09:55.764Z,
+     originalMaxAge: 2628000000,
+     httpOnly: true } }
+/ Route else user
+[0mGET / [36m302 [0m0.629 ms - 28[0m
+/ Route
+Session {
+  cookie: 
+   { path: '/',
+     _expires: 2019-01-08T10:13:12.386Z,
+     originalMaxAge: 2628000000,
+     httpOnly: true } }
+/ Route else user
+[0mGET / [36m302 [0m1.808 ms - 28[0m
+/ Route
+Session {
+  cookie: 
+   { path: '/',
+     _expires: 2019-01-08T11:35:17.777Z,
+     originalMaxAge: 2628000000,
+     httpOnly: true } }
+/ Route else user
+[0mGET / [36m302 [0m0.934 ms - 28[0m
+/ Route
+Session {
+  cookie: 
+   { path: '/',
+     _expires: 2019-01-08T11:43:15.184Z,
+     originalMaxAge: 2628000000,
+     httpOnly: true } }
+/ Route else user
+[0mGET / [36m302 [0m0.634 ms - 28[0m
+/ Route
+Session {
+  cookie: 
+   { path: '/',
+     _expires: 2019-01-08T11:43:15.189Z,
+     originalMaxAge: 2628000000,
+     httpOnly: true } }
+/ Route else user
+[0mGET / [36m302 [0m0.437 ms - 28[0m
+/ Route
+Session {
+  cookie: 
+   { path: '/',
+     _expires: 2019-01-08T12:29:32.725Z,
+     originalMaxAge: 2628000000,
+     httpOnly: true } }
+/ Route else user
+[0mGET / [36m302 [0m0.663 ms - 56[0m
+/login Route
+[0mGET /login [32m200 [0m0.719 ms - 1483[0m
+[0mGET /HNAP1/ [33m404 [0m0.687 ms - 926[0m
+/ Route
+Session {
+  cookie: 
+   { path: '/',
+     _expires: 2019-01-08T13:13:15.905Z,
+     originalMaxAge: 2628000000,
+     httpOnly: true } }
+/ Route else user
+[0mGET / [36m302 [0m0.677 ms - 28[0m
+/ Route
+Session {
+  cookie: 
+   { path: '/',
+     _expires: 2019-01-08T13:26:05.162Z,
+     originalMaxAge: 2628000000,
+     httpOnly: true } }
+/ Route else user
+[0mGET / [36m302 [0m0.692 ms - 28[0m
+/ Route
+Session {
+  cookie: 
+   { path: '/',
+     _expires: 2019-01-08T13:57:11.046Z,
+     originalMaxAge: 2628000000,
+     httpOnly: true } }
+/ Route else user
+[0mGET / [36m302 [0m0.627 ms - 28[0m
+/login Route
+[0mGET /login [32m200 [0m0.767 ms - 1469[0m
+/ Route
+Session {
+  cookie: 
+   { path: '/',
+     _expires: 2019-01-08T14:41:54.422Z,
+     originalMaxAge: 2628000000,
+     httpOnly: true } }
+/ Route else user
+[0mGET / [36m302 [0m0.662 ms - 28[0m
+/ Route
+Session {
+  cookie: 
+   { path: '/',
+     _expires: 2019-01-08T15:34:36.925Z,
+     originalMaxAge: 2628000000,
+     httpOnly: true } }
+/ Route else user
+[0mGET / [36m302 [0m1.178 ms - 28[0m
+/ Route
+Session {
+  cookie: 
+   { path: '/',
+     _expires: 2019-01-08T15:55:28.116Z,
+     originalMaxAge: 2628000000,
+     httpOnly: true } }
+/ Route else user
+[0mGET / [36m302 [0m0.637 ms - 28[0m
+[0mPOST /tmUnblock.cgi [0m- [0m- ms - -[0m
+/ Route
+Session {
+  cookie: 
+   { path: '/',
+     _expires: 2019-01-08T16:37:24.849Z,
+     originalMaxAge: 2628000000,
+     httpOnly: true } }
+/ Route else user
+[0mGET / [36m302 [0m0.696 ms - 28[0m
+/ Route
+Session {
+  cookie: 
+   { path: '/',
+     _expires: 2019-01-08T16:41:40.842Z,
+     originalMaxAge: 2628000000,
+     httpOnly: true } }
+/ Route else user
+[0mGET / [36m302 [0m0.598 ms - 28[0m
+/ Route
+Session {
+  cookie: 
+   { path: '/',
+     _expires: 2019-01-08T16:49:55.027Z,
+     originalMaxAge: 2628000000,
+     httpOnly: true } }
+/ Route else user
+[0mGET / [36m302 [0m0.922 ms - 28[0m
+/ Route
+Session {
+  cookie: 
+   { path: '/',
+     _expires: 2019-01-08T17:00:43.150Z,
+     originalMaxAge: 2628000000,
+     httpOnly: true } }
+/ Route else user
+[0mGET / [36m302 [0m0.650 ms - 28[0m
+/ Route
+Session {
+  cookie: 
+   { path: '/',
+     _expires: 2019-01-08T17:01:26.296Z,
+     originalMaxAge: 2628000000,
+     httpOnly: true } }
+/ Route else user
+[0mGET / [36m302 [0m0.650 ms - 28[0m
+/ Route
+Session {
+  cookie: 
+   { path: '/',
+     _expires: 2019-01-08T18:24:19.073Z,
+     originalMaxAge: 2628000000,
+     httpOnly: true } }
+/ Route else user
+[0mGET / [36m302 [0m0.641 ms - 28[0m
+/ Route
+Session {
+  cookie: 
+   { path: '/',
+     _expires: 2019-01-08T18:55:17.023Z,
+     originalMaxAge: 2628000000,
+     httpOnly: true } }
+/ Route else user
+[0mGET / [36m302 [0m0.666 ms - 28[0m
+/ Route
+Session {
+  cookie: 
+   { path: '/',
+     _expires: 2019-01-08T19:02:13.486Z,
+     originalMaxAge: 2628000000,
+     httpOnly: true } }
+/ Route else user
+[0mGET / [36m302 [0m0.648 ms - 28[0m
+/ Route
+Session {
+  cookie: 
+   { path: '/',
+     _expires: 2019-01-08T19:14:58.480Z,
+     originalMaxAge: 2628000000,
+     httpOnly: true } }
+/ Route else user
+[0mGET / [36m302 [0m0.642 ms - 28[0m
+/ Route
+Session {
+  cookie: 
+   { path: '/',
+     _expires: 2019-01-08T19:17:13.135Z,
+     originalMaxAge: 2628000000,
+     httpOnly: true } }
+/ Route else user
+[0mGET / [36m302 [0m0.689 ms - 28[0m
+/ Route
+Session {
+  cookie: 
+   { path: '/',
+     _expires: 2019-01-08T19:29:10.833Z,
+     originalMaxAge: 2628000000,
+     httpOnly: true } }
+/ Route else user
+[0mGET / [36m302 [0m0.661 ms - 28[0m
+/ Route
+Session {
+  cookie: 
+   { path: '/',
+     _expires: 2019-01-08T19:38:26.824Z,
+     originalMaxAge: 2628000000,
+     httpOnly: true } }
+/ Route else user
+[0mGET / [36m302 [0m0.646 ms - 28[0m
+[0mGET /manager/html [33m404 [0m0.703 ms - 926[0m
+/ Route
+Session {
+  cookie: 
+   { path: '/',
+     _expires: 2019-01-08T20:53:48.563Z,
+     originalMaxAge: 2628000000,
+     httpOnly: true } }
+/ Route else user
+[0mGET / [36m302 [0m0.643 ms - 28[0m
+/ Route
+Session {
+  cookie: 
+   { path: '/',
+     _expires: 2019-01-08T21:03:06.208Z,
+     originalMaxAge: 2628000000,
+     httpOnly: true } }
+/ Route else user
+[0mGET / [36m302 [0m0.630 ms - 28[0m
+/ Route
+Session {
+  cookie: 
+   { path: '/',
+     _expires: 2019-01-08T21:31:10.754Z,
+     originalMaxAge: 2628000000,
+     httpOnly: true } }
+/ Route else user
+[0mGET / [36m302 [0m0.628 ms - 28[0m
+/login Route
+[0mGET /login [32m200 [0m0.738 ms - 1469[0m
+/ Route
+Session {
+  cookie: 
+   { path: '/',
+     _expires: 2019-01-08T21:50:24.470Z,
+     originalMaxAge: 2628000000,
+     httpOnly: true } }
+/ Route else user
+[0mGET / [36m302 [0m0.620 ms - 28[0m
+/ Route
+Session {
+  cookie: 
+   { path: '/',
+     _expires: 2019-01-08T21:57:52.263Z,
+     originalMaxAge: 2628000000,
+     httpOnly: true } }
+/ Route else user
+[0mGET / [36m302 [0m0.656 ms - 28[0m
+/ Route
+Session {
+  cookie: 
+   { path: '/',
+     _expires: 2019-01-08T23:23:06.990Z,
+     originalMaxAge: 2628000000,
+     httpOnly: true } }
+/ Route else user
+[0mGET / [36m302 [0m0.668 ms - 28[0m
+/ Route
+Session {
+  cookie: 
+   { path: '/',
+     _expires: 2019-01-08T23:25:00.634Z,
+     originalMaxAge: 2628000000,
+     httpOnly: true } }
+/ Route else user
+[0mGET / [36m302 [0m0.670 ms - 28[0m
+/login Route
+[0mGET /login [32m200 [0m1.696 ms - 1469[0m
+/ Route
+Session {
+  cookie: 
+   { path: '/',
+     _expires: 2019-01-08T23:58:41.744Z,
+     originalMaxAge: 2628000000,
+     httpOnly: true } }
+/ Route else user
+[0mGET / [36m302 [0m0.629 ms - 28[0m
+/ Route
+Session {
+  cookie: 
+   { path: '/',
+     _expires: 2019-01-09T00:07:55.597Z,
+     originalMaxAge: 2628000000,
+     httpOnly: true } }
+/ Route else user
+[0mGET / [36m302 [0m0.693 ms - 28[0m
+/ Route
+Session {
+  cookie: 
+   { path: '/',
+     _expires: 2019-01-09T00:10:14.459Z,
+     originalMaxAge: 2628000000,
+     httpOnly: true } }
+/ Route else user
+[0mGET / [36m302 [0m1.264 ms - 28[0m
+[0mGET /manager/html [33m404 [0m0.725 ms - 926[0m
+/ Route
+Session {
+  cookie: 
+   { path: '/',
+     _expires: 2019-01-09T02:07:22.885Z,
+     originalMaxAge: 2628000000,
+     httpOnly: true } }
+/ Route else user
+[0mGET / [36m302 [0m0.625 ms - 28[0m
+/ Route
+Session {
+  cookie: 
+   { path: '/',
+     _expires: 2019-01-09T02:46:32.598Z,
+     originalMaxAge: 2628000000,
+     httpOnly: true } }
+/ Route else user
+[0mGET / [36m302 [0m1.189 ms - 28[0m
+/ Route
+Session {
+  cookie: 
+   { path: '/',
+     _expires: 2019-01-09T04:07:03.200Z,
+     originalMaxAge: 2628000000,
+     httpOnly: true } }
+/ Route else user
+[0mGET / [36m302 [0m0.629 ms - 28[0m
+/ Route
+Session {
+  cookie: 
+   { path: '/',
+     _expires: 2019-01-09T05:03:20.557Z,
+     originalMaxAge: 2628000000,
+     httpOnly: true } }
+/ Route else user
+[0mGET / [36m302 [0m0.633 ms - 28[0m
+[0mGET http://5.188.210.12/echo.php [33m404 [0m0.925 ms - 926[0m
+/ Route
+Session {
+  cookie: 
+   { path: '/',
+     _expires: 2019-01-09T05:59:29.123Z,
+     originalMaxAge: 2628000000,
+     httpOnly: true } }
+/ Route else user
+[0mGET / [36m302 [0m1.489 ms - 28[0m
+/ Route
+Session {
+  cookie: 
+   { path: '/',
+     _expires: 2019-01-09T06:26:53.215Z,
+     originalMaxAge: 2628000000,
+     httpOnly: true } }
+/ Route else user
+[0mGET / [36m302 [0m0.653 ms - 28[0m
+/ Route
+Session {
+  cookie: 
+   { path: '/',
+     _expires: 2019-01-09T06:34:33.738Z,
+     originalMaxAge: 2628000000,
+     httpOnly: true } }
+/ Route else user
+[0mGET / [36m302 [0m0.659 ms - 28[0m
+/ Route
+Session {
+  cookie: 
+   { path: '/',
+     _expires: 2019-01-09T07:16:46.568Z,
+     originalMaxAge: 2628000000,
+     httpOnly: true } }
+/ Route else user
+[0mGET / [36m302 [0m0.702 ms - 28[0m
+/ Route
+Session {
+  cookie: 
+   { path: '/',
+     _expires: 2019-01-09T08:07:41.881Z,
+     originalMaxAge: 2628000000,
+     httpOnly: true } }
+/ Route else user
+[0mGET / [36m302 [0m0.625 ms - 28[0m
+/ Route
+Session {
+  cookie: 
+   { path: '/',
+     _expires: 2019-01-09T08:35:38.839Z,
+     originalMaxAge: 2628000000,
+     httpOnly: true } }
+/ Route else user
+[0mGET / [36m302 [0m0.664 ms - 28[0m
+/ Route
+Session {
+  cookie: 
+   { path: '/',
+     _expires: 2019-01-09T08:50:23.925Z,
+     originalMaxAge: 2628000000,
+     httpOnly: true } }
+/ Route else user
+[0mGET / [36m302 [0m0.631 ms - 28[0m
+/ Route
+Session {
+  cookie: 
+   { path: '/',
+     _expires: 2019-01-09T09:17:27.884Z,
+     originalMaxAge: 2628000000,
+     httpOnly: true } }
+/ Route else user
+[0mGET / [36m302 [0m0.620 ms - 28[0m
+/ Route
+Session {
+  cookie: 
+   { path: '/',
+     _expires: 2019-01-09T09:36:03.475Z,
+     originalMaxAge: 2628000000,
+     httpOnly: true } }
+/ Route else user
+[0mGET / [36m302 [0m0.614 ms - 28[0m
+/ Route
+Session {
+  cookie: 
+   { path: '/',
+     _expires: 2019-01-09T09:45:08.641Z,
+     originalMaxAge: 2628000000,
+     httpOnly: true } }
+/ Route else user
+[0mGET / [36m302 [0m0.647 ms - 28[0m
+/ Route
+Session {
+  cookie: 
+   { path: '/',
+     _expires: 2019-01-09T10:09:48.099Z,
+     originalMaxAge: 2628000000,
+     httpOnly: true } }
+/ Route else user
+[0mGET / [36m302 [0m0.720 ms - 28[0m
+/ Route
+Session {
+  cookie: 
+   { path: '/',
+     _expires: 2019-01-09T10:17:07.392Z,
+     originalMaxAge: 2628000000,
+     httpOnly: true } }
+/ Route else user
+[0mGET / [36m302 [0m3.205 ms - 28[0m
+/ Route
+Session {
+  cookie: 
+   { path: '/',
+     _expires: 2019-01-09T11:23:18.813Z,
+     originalMaxAge: 2628000000,
+     httpOnly: true } }
+/ Route else user
+[0mGET / [36m302 [0m0.671 ms - 28[0m
+/ Route
+Session {
+  cookie: 
+   { path: '/',
+     _expires: 2019-01-09T11:27:12.659Z,
+     originalMaxAge: 2628000000,
+     httpOnly: true } }
+/ Route else user
+[0mGET / [36m302 [0m0.694 ms - 28[0m
+/ Route
+Session {
+  cookie: 
+   { path: '/',
+     _expires: 2019-01-09T11:33:41.537Z,
+     originalMaxAge: 2628000000,
+     httpOnly: true } }
+/ Route else user
+[0mGET / [36m302 [0m0.608 ms - 28[0m
+/ Route
+Session {
+  cookie: 
+   { path: '/',
+     _expires: 2019-01-09T14:41:51.130Z,
+     originalMaxAge: 2628000000,
+     httpOnly: true } }
+/ Route else user
+[0mGET / [36m302 [0m0.705 ms - 28[0m
+/ Route
+Session {
+  cookie: 
+   { path: '/',
+     _expires: 2019-01-09T15:48:33.350Z,
+     originalMaxAge: 2628000000,
+     httpOnly: true } }
+/ Route else user
+[0mGET / [36m302 [0m0.684 ms - 28[0m
+/ Route
+Session {
+  cookie: 
+   { path: '/',
+     _expires: 2019-01-09T17:16:21.646Z,
+     originalMaxAge: 2628000000,
+     httpOnly: true } }
+/ Route else user
+[0mGET / [36m302 [0m0.651 ms - 28[0m
+/ Route
+Session {
+  cookie: 
+   { path: '/',
+     _expires: 2019-01-09T18:24:48.116Z,
+     originalMaxAge: 2628000000,
+     httpOnly: true } }
+/ Route else user
+[0mGET / [36m302 [0m0.655 ms - 28[0m
+/ Route
+Session {
+  cookie: 
+   { path: '/',
+     _expires: 2019-01-09T18:40:34.017Z,
+     originalMaxAge: 2628000000,
+     httpOnly: true } }
+/ Route else user
+[0mGET / [36m302 [0m0.633 ms - 28[0m
+/ Route
+Session {
+  cookie: 
+   { path: '/',
+     _expires: 2019-01-09T19:17:43.479Z,
+     originalMaxAge: 2628000000,
+     httpOnly: true } }
+/ Route else user
+[0mGET / [36m302 [0m0.571 ms - 28[0m
+/ Route
+Session {
+  cookie: 
+   { path: '/',
+     _expires: 2019-01-09T20:16:18.547Z,
+     originalMaxAge: 2628000000,
+     httpOnly: true } }
+/ Route else user
+[0mGET / [36m302 [0m0.702 ms - 28[0m
+/ Route
+Session {
+  cookie: 
+   { path: '/',
+     _expires: 2019-01-09T20:42:31.685Z,
+     originalMaxAge: 2628000000,
+     httpOnly: true } }
+/ Route else user
+[0mGET / [36m302 [0m0.631 ms - 28[0m
+/ Route
+Session {
+  cookie: 
+   { path: '/',
+     _expires: 2019-01-09T20:50:27.474Z,
+     originalMaxAge: 2628000000,
+     httpOnly: true } }
+/ Route else user
+[0mGET / [36m302 [0m0.644 ms - 28[0m
+/ Route
+Session {
+  cookie: 
+   { path: '/',
+     _expires: 2019-01-09T22:05:50.350Z,
+     originalMaxAge: 2628000000,
+     httpOnly: true } }
+/ Route else user
+[0mGET http://www.baidu.com/ [36m302 [0m0.650 ms - 28[0m
+/ Route
+Session {
+  cookie: 
+   { path: '/',
+     _expires: 2019-01-09T22:44:18.512Z,
+     originalMaxAge: 2628000000,
+     httpOnly: true } }
+/ Route else user
+[0mGET / [36m302 [0m0.634 ms - 28[0m
+/ Route
+Session {
+  cookie: 
+   { path: '/',
+     _expires: 2019-01-09T22:44:40.163Z,
+     originalMaxAge: 2628000000,
+     httpOnly: true } }
+/ Route else user
+[0mGET / [36m302 [0m0.685 ms - 28[0m
+/ Route
+Session {
+  cookie: 
+   { path: '/',
+     _expires: 2019-01-09T22:58:35.757Z,
+     originalMaxAge: 2628000000,
+     httpOnly: true } }
+/ Route else user
+[0mGET / [36m302 [0m0.696 ms - 28[0m
+/ Route
+Session {
+  cookie: 
+   { path: '/',
+     _expires: 2019-01-09T23:06:28.657Z,
+     originalMaxAge: 2628000000,
+     httpOnly: true } }
+/ Route else user
+[0mGET / [36m302 [0m0.679 ms - 28[0m
+/ Route
+Session {
+  cookie: 
+   { path: '/',
+     _expires: 2019-01-09T23:31:05.503Z,
+     originalMaxAge: 2628000000,
+     httpOnly: true } }
+/ Route else user
+[0mGET / [36m302 [0m0.706 ms - 28[0m
+/ Route
+Session {
+  cookie: 
+   { path: '/',
+     _expires: 2019-01-10T01:13:14.632Z,
+     originalMaxAge: 2628000000,
+     httpOnly: true } }
+/ Route else user
+[0mGET / [36m302 [0m0.696 ms - 28[0m
+/ Route
+Session {
+  cookie: 
+   { path: '/',
+     _expires: 2019-01-10T01:14:52.484Z,
+     originalMaxAge: 2628000000,
+     httpOnly: true } }
+/ Route else user
+[0mGET / [36m302 [0m0.589 ms - 28[0m
+/ Route
+Session {
+  cookie: 
+   { path: '/',
+     _expires: 2019-01-10T02:45:03.429Z,
+     originalMaxAge: 2628000000,
+     httpOnly: true } }
+/ Route else user
+[0mGET / [36m302 [0m0.618 ms - 28[0m
+/ Route
+Session {
+  cookie: 
+   { path: '/',
+     _expires: 2019-01-10T02:50:45.754Z,
+     originalMaxAge: 2628000000,
+     httpOnly: true } }
+/ Route else user
+[0mGET / [36m302 [0m0.644 ms - 28[0m
+[0mGET /index.html [33m404 [0m0.738 ms - 926[0m
+/ Route
+Session {
+  cookie: 
+   { path: '/',
+     _expires: 2019-01-06T12:13:42.445Z,
+     originalMaxAge: 2627999999,
+     httpOnly: true },
+  user: '5c05d0663c27a95d9f18fede',
+  username: 'benten',
+  msg: 'Authenticated as benten',
+  color: 'Red' }
+/ Route if user
+[0mGET / [36m304 [0m4.545 ms - -[0m
+[0mGET /javascripts/my_app.js [36m304 [0m1.819 ms - -[0m
+[0mGET /stylesheets/style.css [32m200 [0m2.542 ms - 267[0m
+[0mGET /user/profile [36m304 [0m3.349 ms - -[0m
+[0mGET /favicon.ico [33m404 [0m0.613 ms - 926[0m
+/ Route
+Session {
+  cookie: 
+   { path: '/',
+     _expires: 2019-01-10T03:43:46.522Z,
+     originalMaxAge: 2628000000,
+     httpOnly: true } }
+/ Route else user
+[0mGET / [36m302 [0m2.655 ms - 28[0m
+/ Route
+Session {
+  cookie: 
+   { path: '/',
+     _expires: 2019-01-10T04:31:07.464Z,
+     originalMaxAge: 2628000000,
+     httpOnly: true } }
+/ Route else user
+[0mGET / [36m302 [0m0.635 ms - 28[0m
+/ Route
+Session {
+  cookie: 
+   { path: '/',
+     _expires: 2019-01-10T04:50:18.784Z,
+     originalMaxAge: 2628000000,
+     httpOnly: true } }
+/ Route else user
+[0mGET / [36m302 [0m1.173 ms - 28[0m
+/ Route
+Session {
+  cookie: 
+   { path: '/',
+     _expires: 2019-01-10T05:39:30.166Z,
+     originalMaxAge: 2628000000,
+     httpOnly: true } }
+/ Route else user
+[0mGET / [36m302 [0m0.598 ms - 28[0m
+/ Route
+Session {
+  cookie: 
+   { path: '/',
+     _expires: 2019-01-10T06:32:37.913Z,
+     originalMaxAge: 2628000000,
+     httpOnly: true } }
+/ Route else user
+[0mGET / [36m302 [0m0.629 ms - 28[0m
+/ Route
+Session {
+  cookie: 
+   { path: '/',
+     _expires: 2019-01-10T06:37:07.383Z,
+     originalMaxAge: 2628000000,
+     httpOnly: true } }
+/ Route else user
+[0mGET / [36m302 [0m3.912 ms - 28[0m
+[0mGET /api/v1/namespaces/default/pods/ [33m404 [0m0.761 ms - 926[0m
+/ Route
+Session {
+  cookie: 
+   { path: '/',
+     _expires: 2019-01-10T06:51:30.497Z,
+     originalMaxAge: 2628000000,
+     httpOnly: true } }
+/ Route else user
+[0mGET / [36m302 [0m0.568 ms - 28[0m
+/ Route
+Session {
+  cookie: 
+   { path: '/',
+     _expires: 2019-01-10T07:15:23.182Z,
+     originalMaxAge: 2628000000,
+     httpOnly: true } }
+/ Route else user
+[0mGET / [36m302 [0m0.666 ms - 28[0m
+/ Route
+Session {
+  cookie: 
+   { path: '/',
+     _expires: 2019-01-10T07:31:55.326Z,
+     originalMaxAge: 2628000000,
+     httpOnly: true } }
+/ Route else user
+[0mGET / [36m302 [0m1.410 ms - 28[0m
+[0mGET http://www.google.com/humans.txt [33m404 [0m1.968 ms - 926[0m
+/ Route
+Session {
+  cookie: 
+   { path: '/',
+     _expires: 2019-01-10T08:10:35.465Z,
+     originalMaxAge: 2628000000,
+     httpOnly: true } }
+/ Route else user
+[0mGET / [36m302 [0m0.628 ms - 28[0m
+/ Route
+Session {
+  cookie: 
+   { path: '/',
+     _expires: 2019-01-10T08:19:41.417Z,
+     originalMaxAge: 2628000000,
+     httpOnly: true } }
+/ Route else user
+[0mGET / [36m302 [0m0.660 ms - 28[0m
+/ Route
+Session {
+  cookie: 
+   { path: '/',
+     _expires: 2019-01-10T08:33:00.849Z,
+     originalMaxAge: 2628000000,
+     httpOnly: true } }
+/ Route else user
+[0mGET / [36m302 [0m0.623 ms - 28[0m
+/ Route
+Session {
+  cookie: 
+   { path: '/',
+     _expires: 2019-01-10T08:50:38.872Z,
+     originalMaxAge: 2628000000,
+     httpOnly: true } }
+/ Route else user
+[0mGET / [36m302 [0m0.628 ms - 28[0m
+/ Route
+Session {
+  cookie: 
+   { path: '/',
+     _expires: 2019-01-10T09:20:39.612Z,
+     originalMaxAge: 2628000000,
+     httpOnly: true } }
+/ Route else user
+[0mGET / [36m302 [0m0.679 ms - 56[0m
+/login Route
+[0mGET /login [32m200 [0m1.250 ms - 1469[0m
+[0mGET /favicon.ico [33m404 [0m1.029 ms - 926[0m
